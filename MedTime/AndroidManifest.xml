@@ -22,6 +22,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Welcome"
+            android:label="@string/title_activity_welcome" >
+        </activity>
+        <activity
+            android:name=".Pacienti"
+            android:label="@string/title_activity_pacienti" >
+        </activity>
+        <activity
+            android:name=".Consultatii"
+            android:label="@string/title_activity_consultatii" >
+        </activity>
     </application>
 
 </manifest>

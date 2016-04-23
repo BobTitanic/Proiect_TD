@@ -9,4 +9,10 @@
     <string name="pass">Password</string>
     <string name="login">Log In</string>
 
+    <color name="bg_colour">#B9DEEB</color>
+
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_pacienti">Pacienti</string>
+    <string name="title_activity_consultatii">Consultatii</string>
+
 </resources>
