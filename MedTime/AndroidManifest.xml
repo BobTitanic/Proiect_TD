@@ -15,7 +15,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".LogIn"
-            android:label="@string/title_activity_log_in" >
+            android:label="@string/title_activity_log_in" 
+            android:screenOrientation= "landscape">"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,15 +25,18 @@
         </activity>
         <activity
             android:name=".Welcome"
-            android:label="@string/title_activity_welcome" >
+            android:label="@string/title_activity_welcome" 
+            android:screenOrientation= "landscape">
         </activity>
         <activity
             android:name=".Pacienti"
-            android:label="@string/title_activity_pacienti" >
+            android:label="@string/title_activity_pacienti"
+            android:screenOrientation= "landscape" >
         </activity>
         <activity
             android:name=".Consultatii"
-            android:label="@string/title_activity_consultatii" >
+            android:label="@string/title_activity_consultatii" 
+            android:screenOrientation= "landscape">
         </activity>
     </application>
 
