@@ -26,19 +26,19 @@
             android:layout_gravity="center" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/button_pacienti"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="start"
-                android:background="@drawable/pacienti" 
+                android:background="@drawable/pacienti_states" 
                 />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/button_consultatii"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:background="@drawable/consultatii" />
+                android:background="@drawable/consultatii_states" />
         </FrameLayout>
     </LinearLayout>
 
