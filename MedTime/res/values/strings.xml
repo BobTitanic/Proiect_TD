@@ -14,5 +14,14 @@
     <string name="title_activity_welcome">Welcome</string>
     <string name="title_activity_pacienti">Pacienti</string>
     <string name="title_activity_consultatii">Consultatii</string>
+    <string name="search_title">Search pacient</string>
+    <string name="addPacients">Add new pacient</string>
+    <string name="pacients_name">Name</string>
+    <string name="pacients_age">Age</string>
+    <string name="pacients_cronic">Cronic diseases</string>
+    <string name="insert">Insert</string>
+    <string name="cancel">Cancel</string>
+    <string name="goBack">Go Back</string>
+    <string name="title_activity_display_pacient_info">DisplayPacientInfo</string>
 
 </resources>
