@@ -34,7 +34,8 @@ public class Welcome extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				Intent i_consultatii = new Intent(Welcome.this, Consultatii.class);
+				//Intent i_consultatii = new Intent(Welcome.this, Consultatii.class);
+				Intent i_consultatii = new Intent(Welcome.this,Consultatii.class);
 				Welcome.this.startActivity(i_consultatii);
 				
 			}

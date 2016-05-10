@@ -29,7 +29,7 @@ public class LogIn extends Activity {
 			@Override
 			public void onClick(View v) {
 
-				if (user.getText().toString().equals("admin") && pass.getText().toString().equals("admin"))
+				if (user.getText().toString().equals("") && pass.getText().toString().equals(""))
 				{
 					Intent logare = new Intent(LogIn.this, Welcome.class);
 					LogIn.this.startActivity(logare);

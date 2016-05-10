@@ -2,10 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.proiect.medtime.Consultatii" >
 
-    <item
-        android:id="@+id/action_settings"
+    
+    
+        <item
+        android:id="@+id/plus"
         android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="@string/adaugacon"/>
+    
+    
 
 </menu>
